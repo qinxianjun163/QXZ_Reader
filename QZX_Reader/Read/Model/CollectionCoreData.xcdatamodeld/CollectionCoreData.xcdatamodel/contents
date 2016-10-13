@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="14F27" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="CollectionModel" representedClassName="CollectionModel" syncable="YES">
+        <attribute name="digest" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="docid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imgsrc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lmodify" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pixel" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ptime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="source" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="url" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="CollectionModel" positionX="-27" positionY="18" width="128" height="180"/>
+    </elements>
+</model>

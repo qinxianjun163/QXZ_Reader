@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LanchScreenImage" translatesAutoresizingMaskIntoConstraints="NO" id="L1t-9s-hhY">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <animations/>
+                </imageView>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="L1t-9s-hhY" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Gpn-Je-gcg"/>
+                <constraint firstItem="L1t-9s-hhY" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="JJ7-sF-W5m"/>
+                <constraint firstAttribute="bottom" secondItem="L1t-9s-hhY" secondAttribute="bottom" id="eeU-aL-ayb"/>
+                <constraint firstAttribute="trailing" secondItem="L1t-9s-hhY" secondAttribute="trailing" id="vjj-8n-jX9"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <point key="canvasLocation" x="547.5" y="454.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="LanchScreenImage" width="650" height="1024"/>
+    </resources>
+</document>
